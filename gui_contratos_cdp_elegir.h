@@ -15,6 +15,9 @@ public:
     explicit GUI_Contratos_CDP_elegir(QWidget *parent = 0);
     ~GUI_Contratos_CDP_elegir();
 
+private slots:
+    void on_buttonBox_accepted();
+
 private:
     Ui::GUI_Contratos_CDP_elegir *ui;
 };

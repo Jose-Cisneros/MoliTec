@@ -31,7 +31,13 @@ SOURCES += main.cpp\
     gui_contratos_condiciones.cpp \
     gui_contratos_cdp_elegir.cpp \
     gui_ver.cpp \
-    db_manager.cpp
+    db_manager.cpp \
+    gui_cartaporte.cpp \
+    gui_cartaporte_crear_1.cpp \
+    gui_cartaporte_crear_2.cpp \
+    gui_cartaporte_crear_3.cpp \
+    gui_cartaporte_crear_4.cpp \
+    gui_cartaporte_crear_5.cpp
 
 HEADERS  += mainwindow.h \
     gui_contratos.h \
@@ -40,11 +46,23 @@ HEADERS  += mainwindow.h \
     gui_contratos_cdp_elegir.h \
     gui_ver.h \
     db_manager.h \
-    head.h
+    head.h \
+    gui_cartaporte.h \
+    gui_cartaporte_crear_1.h \
+    gui_cartaporte_crear_2.h \
+    gui_cartaporte_crear_3.h \
+    gui_cartaporte_crear_4.h \
+    gui_cartaporte_crear_5.h
 
 FORMS    += mainwindow.ui \
     gui_contratos.ui \
     gui_contratos_abiertos.ui \
     gui_contratos_condiciones.ui \
     gui_contratos_cdp_elegir.ui \
-    gui_ver.ui
+    gui_ver.ui \
+    gui_cartaporte.ui \
+    gui_cartaporte_crear_1.ui \
+    gui_cartaporte_crear_2.ui \
+    gui_cartaporte_crear_3.ui \
+    gui_cartaporte_crear_4.ui \
+    gui_cartaporte_crear_5.ui

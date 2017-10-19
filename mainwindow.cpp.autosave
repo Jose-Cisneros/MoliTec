@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "gui_contratos.h"
 #include "gui_ver.h"
+#include <
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -19,7 +20,7 @@ void MainWindow::on_contrato_clicked()
 {
 
     GUI_Contratos a;
-
+    
     a.exec();
 
 

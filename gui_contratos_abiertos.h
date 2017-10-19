@@ -18,6 +18,10 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_pushButton_2_clicked();
+
+    void on_CpGo_clicked();
+
 private:
     Ui::GUI_Contratos_Abiertos *ui;
 };
