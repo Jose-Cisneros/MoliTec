@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
 #include "db_manager.h"
-
 int main(int argc, char *argv[])
 {
 

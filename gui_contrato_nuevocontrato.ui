@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>GUI_CartaPorte_Crear_1</class>
- <widget class="QWidget" name="GUI_CartaPorte_Crear_1">
+ <class>GUI_contrato_nuevoContrato</class>
+ <widget class="QDialog" name="GUI_contrato_nuevoContrato">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>794</width>
-    <height>599</height>
+    <width>527</width>
+    <height>465</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Dialog</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>0</y>
-     <width>461</width>
-     <height>71</height>
+     <x>190</x>
+     <y>-10</y>
+     <width>271</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="font">
@@ -28,53 +28,31 @@
     </font>
    </property>
    <property name="text">
-    <string>Datos del remitente y domicilio fiscal</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>700</x>
-     <y>540</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>seguiente</string>
+    <string>Crear contrato</string>
    </property>
   </widget>
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>70</y>
-     <width>381</width>
-     <height>401</height>
+     <x>110</x>
+     <y>100</y>
+     <width>241</width>
+     <height>211</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
     <property name="verticalSpacing">
-     <number>50</number>
-    </property>
-    <property name="leftMargin">
-     <number>20</number>
-    </property>
-    <property name="topMargin">
-     <number>20</number>
-    </property>
-    <property name="rightMargin">
-     <number>70</number>
+     <number>25</number>
     </property>
     <item row="0" column="0">
      <widget class="QLabel" name="label_2">
       <property name="font">
        <font>
-        <pointsize>11</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>CUIT</string>
+       <string>Productor</string>
       </property>
      </widget>
     </item>
@@ -82,49 +60,40 @@
      <widget class="QLabel" name="label_3">
       <property name="font">
        <font>
-        <pointsize>11</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>Nombre </string>
+       <string>Cantidad</string>
       </property>
      </widget>
     </item>
     <item row="2" column="0">
-     <widget class="QLabel" name="label_4">
+     <widget class="QLabel" name="label_5">
       <property name="font">
        <font>
-        <pointsize>11</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>Direccion</string>
+       <string>Precio</string>
       </property>
      </widget>
     </item>
     <item row="3" column="0">
-     <widget class="QLabel" name="label_5">
+     <widget class="QLabel" name="label_4">
       <property name="font">
        <font>
-        <pointsize>11</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>Localidad</string>
+       <string>fecha Limite</string>
       </property>
      </widget>
     </item>
-    <item row="4" column="0">
-     <widget class="QLabel" name="label_6">
-      <property name="font">
-       <font>
-        <pointsize>11</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Provincia</string>
-      </property>
-     </widget>
+    <item row="3" column="1">
+     <widget class="QDateEdit" name="dateEdit"/>
     </item>
     <item row="0" column="1">
      <widget class="QLineEdit" name="lineEdit"/>
@@ -135,36 +104,32 @@
     <item row="2" column="1">
      <widget class="QLineEdit" name="lineEdit_3"/>
     </item>
-    <item row="3" column="1">
-     <widget class="QLineEdit" name="lineEdit_4"/>
-    </item>
-    <item row="4" column="1">
-     <widget class="QComboBox" name="comboBox">
-      <item>
-       <property name="text">
-        <string>Buenos Aires</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Cordoba</string>
-       </property>
-      </item>
-     </widget>
-    </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>590</x>
-     <y>540</y>
+     <x>420</x>
+     <y>420</y>
      <width>75</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Crear</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>420</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
    </property>
   </widget>
  </widget>
