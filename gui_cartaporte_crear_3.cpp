@@ -19,3 +19,8 @@ void GUI_CartaPorte_Crear_3::on_pushButton_clicked()
              pushButton -> show() ;
                     close () ;
 }
+
+void GUI_CartaPorte_Crear_3::on_pushButton_2_clicked()
+{
+    close () ;
+}

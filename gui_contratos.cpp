@@ -48,3 +48,8 @@ void GUI_Contratos::on_pushButton_3_clicked()
              pushButton_3 -> show() ;
 
 }
+
+void GUI_Contratos::on_pushButton_5_clicked()
+{
+    close() ;
+}

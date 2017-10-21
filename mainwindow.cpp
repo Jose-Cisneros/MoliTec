@@ -3,6 +3,7 @@
 #include "gui_contratos.h"
 #include "gui_ver.h"
 #include "gui_solicitudes.h"
+#include "gui_facturas.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -35,5 +36,13 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_pushButton_2_clicked()
 {  GUI_solicitudes* pushButton_2 = new GUI_solicitudes();
     pushButton_2 -> show() ;
+
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{ GUI_Facturas* pushButton_3 = new GUI_Facturas(this);
+    pushButton_3 ->setModal(true);
+             pushButton_3 -> show() ;
+
 
 }

@@ -40,7 +40,6 @@ void GUI_Contratos_Abiertos::on_CpGo_clicked()
 }
 
 void GUI_Contratos_Abiertos::on_pushButton_2_clicked()
-{Gui_CartaPorte * pushButton_2 =new Gui_CartaPorte() ;
-                 pushButton_2 -> show() ;
+{ close () ;
 
 }

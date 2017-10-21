@@ -288,7 +288,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Cancelar</string>
    </property>
   </widget>
  </widget>
