@@ -99,26 +99,22 @@
        </font>
       </property>
       <property name="text">
-       <string>Ver detalles</string>
+       <string>Cerrar Contrato</string>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="font">
        <font>
         <pointsize>16</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>Cerrar Contrato</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton_5">
-      <property name="text">
-       <string>PushButton</string>
+       <string>Ver detalles</string>
       </property>
      </widget>
     </item>
@@ -135,6 +131,19 @@
    </property>
    <property name="text">
     <string>volver</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>500</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>

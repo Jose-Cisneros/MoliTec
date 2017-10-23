@@ -15,6 +15,9 @@ public:
     explicit GUI_contratos_vertodos_factura(QWidget *parent = 0);
     ~GUI_contratos_vertodos_factura();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::GUI_contratos_vertodos_factura *ui;
 };
