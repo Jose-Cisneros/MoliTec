@@ -37,7 +37,15 @@ SOURCES += main.cpp\
     gui_cartaporte_crear_2.cpp \
     gui_cartaporte_crear_3.cpp \
     gui_cartaporte_crear_4.cpp \
-    gui_cartaporte_crear_5.cpp
+    gui_cartaporte_crear_5.cpp \
+    gui_solicitudes.cpp \
+    gui_solicitudes_crear.cpp \
+    gui_solicitudes_crear_crearcondicion.cpp \
+    gui_contratos_vertodos.cpp \
+    gui_contrato_nuevocontrato.cpp \
+    gui_facturas.cpp \
+    gui_contratos_detallefactura.cpp \
+    gui_contratos_vertodos_factura.cpp
 
 HEADERS  += mainwindow.h \
     gui_contratos.h \
@@ -52,7 +60,16 @@ HEADERS  += mainwindow.h \
     gui_cartaporte_crear_2.h \
     gui_cartaporte_crear_3.h \
     gui_cartaporte_crear_4.h \
-    gui_cartaporte_crear_5.h
+    gui_cartaporte_crear_5.h \
+    gui_solicitudes.h \
+    gui_solicitudes_crear.h \
+    gui_solicitudes_crear_crearcondicion.h \
+    gui_contrato_nuevocontrato.h \
+    gui_contratos_vertodos.h \
+    gui_contratos_detallefactura.h \
+    gui_facturas.h \
+    gui_contratos_detallefactura.h \
+    gui_contratos_vertodos_factura.h
 
 FORMS    += mainwindow.ui \
     gui_contratos.ui \
@@ -65,4 +82,12 @@ FORMS    += mainwindow.ui \
     gui_cartaporte_crear_2.ui \
     gui_cartaporte_crear_3.ui \
     gui_cartaporte_crear_4.ui \
-    gui_cartaporte_crear_5.ui
+    gui_cartaporte_crear_5.ui \
+    gui_solicitudes.ui \
+    gui_solicitudes_crear.ui \
+    gui_solicitudes_crear_crearcondicion.ui \
+    gui_contrato_nuevocontrato.ui \
+    gui_contratos_vertodos.ui \
+    gui_facturas.ui \
+    gui_contratos_detallefactura.ui \
+    gui_contratos_vertodos_factura.ui

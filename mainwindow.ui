@@ -70,7 +70,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Reportes</string>
+     <string>Facturas</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -120,7 +120,7 @@
      <x>0</x>
      <y>0</y>
      <width>635</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

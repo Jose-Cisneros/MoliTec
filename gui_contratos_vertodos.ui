@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>GUI_Contratos</class>
- <widget class="QDialog" name="GUI_Contratos">
+ <class>GUI_contratos_verTodos</class>
+ <widget class="QDialog" name="GUI_contratos_verTodos">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>796</width>
+    <height>599</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,69 +16,78 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>20</y>
-     <width>341</width>
+     <x>230</x>
+     <y>0</y>
+     <width>161</width>
      <height>61</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>23</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <pointsize>20</pointsize>
     </font>
    </property>
-   <property name="cursor">
-    <cursorShape>ArrowCursor</cursorShape>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::Panel</enum>
-   </property>
    <property name="text">
-    <string>Contratos de compra</string>
+    <string>Contratos</string>
    </property>
   </widget>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QListView" name="listView">
    <property name="geometry">
     <rect>
-     <x>160</x>
+     <x>10</x>
      <y>120</y>
-     <width>321</width>
-     <height>251</height>
+     <width>451</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>130</y>
+     <width>231</width>
+     <height>351</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="pushButton">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
       <property name="font">
        <font>
         <pointsize>16</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>Contratos Abiertos</string>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>29</width>
-        <height>400</height>
-       </size>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton_4">
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Cargar Carta de Porte</string>
+       <string>Crear nuevo contrato</string>
       </property>
      </widget>
     </item>
@@ -90,7 +99,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Nuevo Contrato</string>
+       <string>Ver detalles</string>
       </property>
      </widget>
     </item>
@@ -102,23 +111,30 @@
        </font>
       </property>
       <property name="text">
-       <string>Ver todos</string>
+       <string>Cerrar Contrato</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string>PushButton</string>
       </property>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>440</y>
+     <x>690</x>
+     <y>560</y>
      <width>75</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>Volver</string>
+    <string>volver</string>
    </property>
   </widget>
  </widget>

@@ -24,13 +24,22 @@ void GUI_Contratos_Abiertos::on_pushButton_clicked()
 {
     GUI_Contratos_Condiciones a;
     a.exec();
+
 }
 
 
 
 void GUI_Contratos_Abiertos::on_CpGo_clicked()
 {
-    Gui_CartaPorte * CpGo =new Gui_CartaPorte() ;
+  Gui_CartaPorte * CpGo =new Gui_CartaPorte() ;
             CpGo -> show() ;
-            close () ;
+
+
+
+
+}
+
+void GUI_Contratos_Abiertos::on_pushButton_2_clicked()
+{ close () ;
+
 }

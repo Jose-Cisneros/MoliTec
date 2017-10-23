@@ -20,3 +20,8 @@ void GUI_CartaPorte_Crear_5::on_pushButton_clicked()
      msgBox.exec();
      close();
 }
+
+void GUI_CartaPorte_Crear_5::on_pushButton_2_clicked()
+{
+    close () ;
+}
