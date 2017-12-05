@@ -21,7 +21,8 @@ void GUI_Contratos::on_pushButton_clicked()
 {
     GUI_Contratos_Abiertos * pushButton =new GUI_Contratos_Abiertos ();
      pushButton -> show();
-     close() ;
+     close();
+
 }
 
 void GUI_Contratos::on_pushButton_4_clicked()
@@ -37,15 +38,17 @@ void GUI_Contratos::on_pushButton_2_clicked()
 {
     GUI_contrato_nuevoContrato * pushButton_2 = new GUI_contrato_nuevoContrato();
     pushButton_2 -> show() ;
- close () ;
+    close() ;
+
 
 }
 
 void GUI_Contratos::on_pushButton_3_clicked()
 {
-    GUI_contratos_verTodos * pushButton_3 = new GUI_contratos_verTodos(this);
-             pushButton_3 -> setModal(true);
-             pushButton_3 -> show() ;
+    GUI_contratos_verTodos * pushButton_3 = new GUI_contratos_verTodos();
+
+     pushButton_3 -> show() ;
+     close() ;
 
 }
 

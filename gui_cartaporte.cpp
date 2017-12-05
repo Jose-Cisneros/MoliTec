@@ -19,3 +19,8 @@ void Gui_CartaPorte::on_crearCp_clicked()
              crearCp -> show() ;
                     close () ;
 }
+
+void Gui_CartaPorte::on_pushButton_clicked()
+{
+    close ();
+}

@@ -19,6 +19,8 @@ public:
 private slots:
     void on_crearCp_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::Gui_CartaPorte *ui;
 };

@@ -38,7 +38,15 @@ void GUI_contratos_verTodos::on_pushButton_clicked()
 
 void GUI_contratos_verTodos::on_pushButton_3_clicked()
 {
-    GUI_contratos_vertodos_factura* pushButton_3 = new GUI_contratos_vertodos_factura(this);
-    pushButton_3 ->setModal(true);
-             pushButton_3 -> show() ;
+    //GUI_contrato_nuevoContrato* pushButton_3 = new GUI_contrato_nuevoContrato(this);
+    //pushButton_3 ->setModal(true);
+      //       pushButton_3 -> show() ;
+}
+
+
+void GUI_contratos_verTodos::on_pushButton_2_clicked()
+{
+    GUI_contratos_vertodos_factura* pushButton_2 = new GUI_contratos_vertodos_factura(this);
+    pushButton_2 ->setModal(true);
+             pushButton_2 -> show() ;
 }

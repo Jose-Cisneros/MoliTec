@@ -19,8 +19,7 @@ void GUI_contrato_nuevoContrato::on_pushButton_clicked()
 {   QMessageBox msgBox;
     msgBox.setInformativeText("El contrato fue creado correctamente");
     msgBox.exec();
-    GUI_contratos_verTodos * pushButton = new GUI_contratos_verTodos();
-    pushButton -> show() ;
+
     close();
 }
 

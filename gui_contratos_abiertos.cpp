@@ -2,6 +2,8 @@
 #include "ui_gui_contratos_abiertos.h"
 #include "gui_contratos_condiciones.h"
 #include "gui_cartaporte.h"
+#include "gui_contratos.h"
+
 GUI_Contratos_Abiertos::GUI_Contratos_Abiertos(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::GUI_Contratos_Abiertos)
@@ -40,6 +42,9 @@ void GUI_Contratos_Abiertos::on_CpGo_clicked()
 }
 
 void GUI_Contratos_Abiertos::on_pushButton_2_clicked()
-{ close () ;
+{
+    close () ;
+    GUI_Contratos g;
+        g.exec();
 
 }
