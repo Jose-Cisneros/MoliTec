@@ -93,6 +93,9 @@
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="font">
        <font>
         <pointsize>16</pointsize>
@@ -106,7 +109,7 @@
     <item>
      <widget class="QPushButton" name="pushButton_3">
       <property name="enabled">
-       <bool>true</bool>
+       <bool>false</bool>
       </property>
       <property name="font">
        <font>
@@ -115,6 +118,24 @@
       </property>
       <property name="text">
        <string>Ver detalles</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Cargar Factura</string>
       </property>
      </widget>
     </item>
