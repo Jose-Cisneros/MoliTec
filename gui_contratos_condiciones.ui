@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>296</width>
+    <width>360</width>
     <height>313</height>
    </rect>
   </property>
@@ -29,26 +29,6 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>50</y>
-     <width>211</width>
-     <height>192</height>
-    </rect>
-   </property>
-   <column>
-    <property name="text">
-     <string>Condición</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>Valor</string>
-    </property>
-   </column>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -67,6 +47,16 @@
    </property>
    <property name="text">
     <string>Condiciones:</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>301</width>
+     <height>192</height>
+    </rect>
    </property>
   </widget>
  </widget>

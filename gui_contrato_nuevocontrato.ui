@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>717</width>
-    <height>662</height>
+    <width>668</width>
+    <height>459</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,17 +34,17 @@
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>70</y>
+     <x>30</x>
+     <y>80</y>
      <width>241</width>
-     <height>241</height>
+     <height>331</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
     <property name="verticalSpacing">
      <number>25</number>
     </property>
-    <item row="0" column="0">
+    <item row="3" column="0">
      <widget class="QLabel" name="label_2">
       <property name="font">
        <font>
@@ -56,7 +56,10 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="0">
+    <item row="3" column="1">
+     <widget class="QComboBox" name="comboProd"/>
+    </item>
+    <item row="4" column="0">
      <widget class="QLabel" name="label_3">
       <property name="font">
        <font>
@@ -68,13 +71,7 @@
       </property>
      </widget>
     </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit"/>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
-    </item>
-    <item row="2" column="0">
+    <item row="5" column="0">
      <widget class="QLabel" name="label_6">
       <property name="font">
        <font>
@@ -86,16 +83,21 @@
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QComboBox" name="comboBox">
+    <item row="5" column="1">
+     <widget class="QComboBox" name="comboUnidad">
       <item>
        <property name="text">
-        <string>Tonelada</string>
+        <string>Toneladas</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Camiones</string>
        </property>
       </item>
      </widget>
     </item>
-    <item row="3" column="0">
+    <item row="6" column="0">
      <widget class="QLabel" name="label_5">
       <property name="font">
        <font>
@@ -107,10 +109,7 @@
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
-     <widget class="QLineEdit" name="lineEdit_3"/>
-    </item>
-    <item row="4" column="0">
+    <item row="7" column="0">
      <widget class="QLabel" name="label_4">
       <property name="font">
        <font>
@@ -122,16 +121,49 @@
       </property>
      </widget>
     </item>
-    <item row="4" column="1">
+    <item row="7" column="1">
      <widget class="QDateEdit" name="dateEdit"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QSpinBox" name="spinBox_Nro">
+      <property name="maximum">
+       <number>1000000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Número</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QSpinBox" name="spinBox_Cantidad">
+      <property name="maximum">
+       <number>1000000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox_precio">
+      <property name="maximum">
+       <double>10000000.000000000000000</double>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>500</x>
-     <y>610</y>
+     <x>360</x>
+     <y>410</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -143,8 +175,8 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>600</x>
-     <y>610</y>
+     <x>460</x>
+     <y>410</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -153,21 +185,11 @@
     <string>Cancelar</string>
    </property>
   </widget>
-  <widget class="QListView" name="listView">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>410</y>
-     <width>561</width>
-     <height>161</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>370</y>
+     <x>320</x>
+     <y>130</y>
      <width>171</width>
      <height>31</height>
     </rect>
@@ -184,8 +206,8 @@
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>370</y>
+     <x>310</x>
+     <y>340</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -193,6 +215,31 @@
    <property name="text">
     <string>Agregar condicion</string>
    </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>170</y>
+     <width>311</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Condicion</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Valor</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Unidad</string>
+    </property>
+   </column>
   </widget>
  </widget>
  <resources/>

@@ -45,7 +45,8 @@ SOURCES += main.cpp\
     gui_contrato_nuevocontrato.cpp \
     gui_facturas.cpp \
     gui_contratos_detallefactura.cpp \
-    gui_contratos_vertodos_factura.cpp
+    gui_contratos_vertodos_factura.cpp \
+    gui_contratos_condicion_nueva.cpp
 
 HEADERS  += mainwindow.h \
     gui_contratos.h \
@@ -69,7 +70,8 @@ HEADERS  += mainwindow.h \
     gui_contratos_detallefactura.h \
     gui_facturas.h \
     gui_contratos_detallefactura.h \
-    gui_contratos_vertodos_factura.h
+    gui_contratos_vertodos_factura.h \
+    gui_contratos_condicion_nueva.h
 
 FORMS    += mainwindow.ui \
     gui_contratos.ui \
@@ -90,4 +92,5 @@ FORMS    += mainwindow.ui \
     gui_contratos_vertodos.ui \
     gui_facturas.ui \
     gui_contratos_detallefactura.ui \
-    gui_contratos_vertodos_factura.ui
+    gui_contratos_vertodos_factura.ui \
+    gui_contratos_condicion_nueva.ui
